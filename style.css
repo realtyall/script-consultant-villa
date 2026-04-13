@@ -344,8 +344,10 @@ h1, h2, h3, .stat-num {
 /* Preview Section */
 .preview-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .preview-card {
@@ -454,6 +456,7 @@ h1, h2, h3, .stat-num {
 .curr-price { color: #E74C3C; font-size: 64px; font-weight: 900; line-height: 1; margin-top: 8px; }
 
 .limit-note { margin-top: 24px; font-size: 14px; color: var(--text-muted); font-weight: 600; }
+.contact-info { margin-top: 20px; font-size: 24px; font-weight: 800; color: var(--accent); }
 
 /* FAQ */
 .faq-container { max-width: 800px; margin: 0 auto; }
