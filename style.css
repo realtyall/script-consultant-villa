@@ -458,6 +458,46 @@ h1, h2, h3, .stat-num {
 .limit-note { margin-top: 24px; font-size: 14px; color: var(--text-muted); font-weight: 600; }
 .contact-info { margin-top: 20px; font-size: 24px; font-weight: 800; color: var(--accent); }
 
+/* Purchase Button Styles */
+.purchase-container {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px dashed #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.purchase-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #E74C3C;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+    width: 100%;
+}
+
+.purchase-btn:hover {
+    background: #C0392B;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.5);
+}
+
+.purchase-info {
+    font-size: 15px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    text-align: center;
+}
+
 /* FAQ */
 .faq-container { max-width: 800px; margin: 0 auto; }
 .faq-row {
